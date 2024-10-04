@@ -18,7 +18,7 @@ location_url = 'https://termin.bremen.de/termine/select2?md=4'
 # Termin URL:
 # mdt=??? -> BSC Mitte; mdt=800 -> BSC Stresemannstraße
 # cnc-8580 -> Personalausweis beantragen; cnc-8599 -> Personalausweis abholen; cnc-9281 -> KFZ ummelden
-date_url = 'https://termin.bremen.de/termine/location?mdt=800&select_cnc=1&cnc-9281=1'
+typ_url = 'https://termin.bremen.de/termine/location?mdt=800&select_cnc=1&cnc-9281=1'
 # Webhook für Benachrichtigung
 webhook_url = ""
 # Play sound
@@ -54,7 +54,7 @@ def get_next_date():
 	driver = create_driver()
 	driver.get(location_url)
 	time.sleep(1)
-	driver.get(date_url)
+	driver.get(typ_url)
 	time.sleep(1)
 
 	summary_text = driver.find_element(By.ID, 'suggest_location_summary').text
