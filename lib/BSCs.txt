@@ -1,0 +1,2 @@
+BSC Mitte,5,781
+BSC Stresemannstraße,4,800
