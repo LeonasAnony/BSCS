@@ -16,7 +16,7 @@ soll_vor_datum = "25.09.2024"
 # md=5 -> BSC Mitte; md=4 -> BSC Stresemannstraße
 location_url = 'https://termin.bremen.de/termine/select2?md=4'
 # Termin URL:
-# mdt=??? -> BSC Mitte; mdt=800 -> BSC Stresemannstraße
+# mdt=781 -> BSC Mitte; mdt=800 -> BSC Stresemannstraße
 # cnc-8580 -> Personalausweis beantragen; cnc-8599 -> Personalausweis abholen; cnc-9281 -> KFZ ummelden
 typ_url = 'https://termin.bremen.de/termine/location?mdt=800&select_cnc=1&cnc-9281=1'
 # Webhook für Benachrichtigung
