@@ -2,3 +2,4 @@ selenium
 python-vlc
 requests
 webdriver-manager
+pick
